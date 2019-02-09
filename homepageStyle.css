@@ -1,13 +1,12 @@
 .split {
 	height: 100%;
-	width: 50%;
+	width: 30%;
 	position: fixed;
 	z-index: 1;
 	top: 20;
 	overflow: hidden;
 	padding-top: 20px;
 }
-
 
 
 .left {

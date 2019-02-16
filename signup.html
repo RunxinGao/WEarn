@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<style>
+    a img{
+	border:none}
+    .logo{
+	float:left;
+	display:inline;
+	margin-top:0;
+	margin-left:5px;
+	}
+    .header{
+	float:left;
+	display:inline;
+	margin-top:20;
+	margin-left:5px;
+	}
+    button{
+	background-color:#9ACD32;
+	color:white;
+	text-align:center;
+	font-size:20px;
+	border-radius:5px;
+	border:none;
+	}
+    .clearfix{
+	text-align:center;	
+	}
+</style>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="logo">
+            <a href = "#homepage">
+                <img src="image/SmallLogo.png" alt="logo" class = "logo" width="200"> 
+            </a>
+	</div>
+	<div class="header">
+            <h1>Sign Up</h1>
+        </div>
+    	<br/><br/><br/><br/>
+        <p>Welcome to join us.Please fill this form to create your volunteer account.</p>
+	<br/>
+        <hr>
+	    <br/><br/>
+	    <label for="id"><b>User ID: </b></label>
+            <input type="text" placeholder="create your id" name="id" required>
+	    <br/><br/>
+            <label for="email"><b>Email: </b></label>
+            <input type="text" placeholder="enter your Email" name="email" required>
+	    <br/><br/>
+            <label for="psw"><b>Password: </b></label>
+    	    <input type="password" placeholder="password" name="psw" required>
+	    <br/><br/>
+    	    <label for="psw-repeat"><b>Repeat Password: </b></label>
+            <input type="password" placeholder="repeat your password" name="psw-repeat" required>
+
+	    <br/><br/>
+    	    <label for="captcha"><b>CAPTCHA: </b></label>
+            <input type="password" placeholder="enter numbers in the image" name="psw-repeat" required>
+	    <img src="image/captcha.jpeg" alt="CAPTCHA" class = "captcha" width="80"> 
+
+	    <br/><br/><br/>
+    	    <div class="clearfix">
+      		<button type="button" class="cancelbtn">Cancel</button>
+      		<button type="submit" class="signupbtn">Sign Up</button>
+    	    </div>
+  	</div>
+	</form> 

@@ -84,7 +84,36 @@ nav ul{
 	transition: all ease-in-out 250ms;
   }
   
-  .nav-bar a:hover::before {
+ .nav-bar a:hover::before {
 	width: 100%;
   }
+
+  .split{
+  	background: #d2f7e9;
+  	background: #defcf0;
+  }
   
+.left{
+text-align:left;
+float:left;
+padding-left: 60px;
+
+}
+.right{
+float:right;
+text-align:right;
+padding-right: 60px;
+}
+.centered{
+text-align:center;
+float:center;
+}
+#footer{
+	padding: 40px 20px;
+	/*background-color: #376B6D;*/
+	background-color: #707C74;
+}
+
+#footer a{
+	color: #BDC0BA;
+}

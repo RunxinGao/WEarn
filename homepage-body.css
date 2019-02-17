@@ -1,0 +1,33 @@
+section{
+	margin-top:30px;
+	margin-left:300px;
+}
+.maindiv:{
+ 	width:900px;
+	padding:10px;
+	overflow:hidden; 
+}
+ 
+ 
+.leftdiv{
+	float:left;
+	width:400px;
+}
+ 
+.rightdiv{
+	float:right;
+	width:600px;
+	
+}
+ 
+.centerdiv{
+	float:left;
+	width:100px;
+	border-right: 1px solid gray;
+	padding-bottom:280px; 
+	margin-bottom:-280px;  
+}
+h3:hover,li:hover,ol:hover{
+	color:#A8D8B9;
+
+}

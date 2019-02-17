@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 600 px;
+    font-weight: bolder;
+}
+
+
+.navbar-nav  li{
+	display: inline-block;
+	margin-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.big-banner{
+    background-image: url('image/Campaignpic.jpg');
+    background-size: cover;
+}
+button,
+input{
+    overflow:visible;
+}
+
+button,
+select{
+    text-transform: none;
+}

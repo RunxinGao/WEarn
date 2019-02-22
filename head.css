@@ -1,8 +1,8 @@
+
 body{
     margin: 0;
     padding: 0;
-    font-weight: 600 px;
-    font-weight: bolder;
+    height: 100%;
 }
 
 
@@ -10,13 +10,10 @@ body{
 	display: inline-block;
 	margin-left: 60px;
     text-decoration: none;
+    font-weight: bold;
     font-size: 20px;
     position: relative;
 
-}
-
-.navbar-nav.nav-link {
-    color: black;
 }
 
 .big-banner{
@@ -42,4 +39,41 @@ button,
 select{
     text-transform: none;
 }
+/*--------------body----------*/
+section{
+	margin-top:30px;
+	margin-left:300px;
+}
+.maindiv:{
+ 	width:100%;
+    padding-bottom: 100px;
+	overflow:hidden; 
+}
+ 
+ 
+.leftdiv{
+	float:left;
+	width:40%;
+}
+ 
+.rightdiv{
+	float:right;
+	width:45%;
+	
+}
+  
+.centerdiv{
+	float:left;
+	width:10%;
+	border-right: 3px solid gray;
+	padding-bottom:280px; 
+	margin-bottom:-280px;  
+}
+h3:hover,li:hover,ol:hover{
+	color:#A8D8B9;
+
+}
+
+
+/*-------------foooter-----------*/ 
 

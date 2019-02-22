@@ -1,0 +1,143 @@
+#dividingLineBlock{
+    top: 130px;
+}
+
+#eventNameBlock{
+    position: absolute;
+    top: 160px;
+    left: 200px;
+}
+
+#agentNameBlock{
+    position: absolute;
+    top: 160px;
+    left: 960px;
+}
+
+#scoreNameBlock{
+    position: absolute;
+    top: 160px;
+    left: 1300px;
+}
+
+#activityNameBlock{
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#agentLogoBlock{
+    position: absolute;
+    top: 200px;
+    left: 960px;
+}
+
+#totalScoreBlock{
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+}
+
+#ratingHeaderBlockOne{
+    text-align: center;
+    position: absolute;
+    top: 325px;
+    left: 400px;
+}
+
+#ratingOneContent{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+#ratingOneStars{
+    position: absolute;
+    top: 425px;
+    left: 1150px;
+}
+#ratingTwoContent{
+    position: absolute;
+    top: 475px;
+    left: 200px;
+}
+#ratingTwoStars{
+    position: absolute;
+    top: 500px;
+    left: 1150px;
+}
+#ratingThreeContent{
+    position: absolute;
+    top: 550px;
+    left: 200px;
+}
+#ratingThreeStars{
+    position: absolute;
+    top: 575px;
+    left: 1150px;
+}
+#ratingFourContent{
+    position: absolute;
+    top: 625px;
+    left: 200px;
+}
+#ratingFourStars{
+    position: absolute;
+    top: 650px;
+    left: 1150px;
+}
+#ratingFiveContent{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+#ratingFiveStars{
+    position: absolute;
+    top: 725px;
+    left: 1150px;
+}
+#ratingSixContent{
+    position: absolute;
+    top: 775px;
+    left: 200px;
+}
+#ratingSixStars{
+    position: absolute;
+    top: 800px;
+    left: 1150px;
+}
+#ratingSevenContent{
+    position: absolute;
+    top: 850px;
+    left: 200px;
+}
+#ratingSevenStars{
+    position: absolute;
+    top: 875px;
+    left: 1150px;
+}
+
+#commentBlock{
+    position: absolute;
+    top: 915px;
+    left: 400px;
+}
+
+#commentInputBlock{
+    position: absolute;
+    top: 950px;
+    left: 400px;
+}
+
+#submitBlock{
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+}
+
+#cancelBlock{
+    position: absolute;
+    top: 1200px;
+    left: 900px;
+}

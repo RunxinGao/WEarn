@@ -19,6 +19,16 @@ body{
     background-image: url('image/Campaignpic.jpg');
     background-size: cover;
 }
+
+.fresh-content{
+    background: linear-gradient(to right,rgb(247, 141, 2),rgb(247, 206, 1) )
+}
+
+.fresh-content a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
 button,
 input{
     overflow:visible;
@@ -28,3 +38,4 @@ button,
 select{
     text-transform: none;
 }
+

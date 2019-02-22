@@ -1,0 +1,77 @@
+body{padding-top:30px;}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+/*small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}*/
+
+body{ margin-top:20px;}
+.glyphicon { margin-right:5px;}
+.rating .glyphicon {font-size: 22px;}
+.rating-num { margin-top:0px;font-size: 54px; }
+.progress { margin-bottom: 5px;}
+.progress-bar { text-align: left; }
+.rating-desc .col-md-3 {padding-right: 0px;}
+.sr-only { margin-left: 5px;overflow: visible;clip: auto; }
+
+.panel.date {
+    margin: 0px;
+    width: 60px;
+    text-align: center;
+}
+
+.panel.date .month {
+    padding: 2px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.panel.date .day {
+    padding: 3px 0px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+/*.center_div{
+	padding: 0px 600px;
+}
+
+#right_calendar{
+	float:right;
+}
+
+#my_activities{
+	padding: 0px 500px;
+}*/
+
+/*.leftdiv{
+	float:left;
+	width:33.33%;
+}
+
+.middiv{
+	float:center;
+	width:33.33%;
+}
+
+.rightdiv{
+	float:right;
+	width:33.33%;
+}*/
+
+.column {
+  float: left;
+  padding: 10px;
+  /*height: 300px;  Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 45%;
+}
+
+.middle {
+  width: 10%;
+}

@@ -1,10 +1,8 @@
-
 body{
     margin: 0;
     padding: 0;
     height: 100%;
 }
-
 
 .navbar-nav  li{
 	display: inline-block;
@@ -30,6 +28,7 @@ body{
     font-weight: bold;
     text-decoration: none;
 }
+
 button,
 input{
     overflow:visible;
@@ -44,10 +43,10 @@ section{
 	margin-top:30px;
 	margin-left:300px;
 }
-.maindiv:{
+.maindiv{
  	width:100%;
-    padding-bottom: 100px;
-	overflow:hidden; 
+    padding-bottom: 280px;
+    overflow:hidden; 
 }
  
  
@@ -76,4 +75,27 @@ h3:hover,li:hover,ol:hover{
 
 
 /*-------------foooter-----------*/ 
+.footer-classic{
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    clear: both;
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
 
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

@@ -15,6 +15,10 @@ body{
 
 }
 
+.navbar-nav.nav-link {
+    color: black;
+}
+
 .big-banner{
     background-image: url('image/Campaignpic.jpg');
     background-size: cover;

@@ -69,6 +69,7 @@ section {
     height: 50px;
     color: rgb(150, 150, 150);
 }
+
 .ratingStars {
     transform: translate(-50%, -50%) rotateY(180deg);
     display: flex;
@@ -104,14 +105,26 @@ section {
     transition: .5s;
     text-shadow: 0 2px 5px rgba(0,0,0,.5);
 }
-/*.ratingStars label:hover:after
-{
-    opacity: 1;
-}*/
 
 .ratingStars label:hover:after,
-.ratingStars label:hover ~ label:after,
+.ratingStars label:hover ~ label:after
+{
+    opacity: 1;
+}
+
 .ratingStars input:checked ~ label:after
 {
     opacity: 1;
+}
+
+.shadow-textarea textarea{
+    width:800px;
+    height:200px;
+}
+
+.shadow-textarea textarea.form-control::placeholder{
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
 }

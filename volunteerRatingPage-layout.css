@@ -120,24 +120,24 @@
 
 #commentBlock{
     position: absolute;
-    top: 915px;
+    top: 940px;
     left: 400px;
 }
 
 #commentInputBlock{
     position: absolute;
-    top: 950px;
+    top: 975px;
     left: 400px;
 }
 
 #submitBlock{
     position: absolute;
-    top: 1200px;
+    top: 1175px;
     left: 600px;
 }
 
 #cancelBlock{
     position: absolute;
-    top: 1200px;
+    top: 1175px;
     left: 900px;
 }

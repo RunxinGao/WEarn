@@ -1,10 +1,7 @@
 .OppName{
 
 }
-.main {
-    width: 50%;
-    margin: 50px auto;
-}
+
 /* Bootstrap 4 text input with search icon */
 
 .has-search .form-control {
@@ -21,50 +18,40 @@
     pointer-events: none;
     color: #aaa;
 }
-.agency{
-  location 
+section{
+    margin-top:30px;
+    margin-left:300px;
+    margin-bottom:30px;
 }
+.maindiv:{
+    width:100%;
+    padding:10%;
+    overflow:hidden; 
+}
+ 
+ 
+.leftdiv{
+    float:left;
+    width:40%;
+}
+ 
+.rightdiv{
+    float:right;
+    width:45%;
+    
+}
+ 
+.centerdiv{
+    float:left;
+    width:10%;
+    border-right: 3px solid gray;
+    padding-bottom:280px; 
+    margin-bottom:-280px;  
+}
+h3:hover,li:hover,ol:hover{
+    color:#A8D8B9;
 
-body {
-    padding-top: 50px;
 }
-.dropdown.dropdown-lg .dropdown-menu {
-    margin-top: -1px;
-    padding: 6px 20px;
-}
-.input-group-btn .btn-group {
-    display: flex !important;
-}
-.btn-group .btn {
-    border-radius: 0;
-    margin-left: -1px;
-}
-.btn-group .btn:last-child {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-.btn-group .form-horizontal .btn[type="submit"] {
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.form-horizontal .form-group {
-    margin-left: 0;
-    margin-right: 0;
-}
-.form-group .form-control:last-child {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
-
-@media screen and (min-width: 768px) {
-    #adv-search {
-        width: 500px;
-        margin: 0 auto;
-    }
-    .dropdown.dropdown-lg {
-        position: static !important;
-    }
-    .dropdown.dropdown-lg .dropdown-menu {
-        min-width: 500px;
-    }
+.myProcessBar{
+margin-left: 0%;
 }

@@ -34,7 +34,7 @@ section {
     height: 90px;
     font-size: 36px;
     font-family: "Lucida Console", Courier, monospace;
-    border-style: solid;
+    border-style: hidden;
     border-color: rgb(148, 146, 146);
     border-collapse: collapse;
 }
@@ -43,7 +43,7 @@ section {
     width: 100px;
     height: 80px;
     font-size: 50px;
-    border-style: hidden;
+    border-style: solid;
     border-color: rgb(177, 78, 21);
     border-collapse: collapse;
 }

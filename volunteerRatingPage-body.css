@@ -34,7 +34,7 @@ section {
     height: 90px;
     font-size: 36px;
     font-family: "Lucida Console", Courier, monospace;
-    border-style: hidden;
+    border-style: solid;
     border-color: rgb(148, 146, 146);
     border-collapse: collapse;
 }
@@ -43,7 +43,7 @@ section {
     width: 100px;
     height: 80px;
     font-size: 50px;
-    border-style: solid;
+    border-style: hidden;
     border-color: rgb(177, 78, 21);
     border-collapse: collapse;
 }
@@ -62,9 +62,9 @@ section {
 .ratingContent {
     float: left;
     width: 725px;
-    border-style: solid;
+    border-style: hidden;
     border-color: rgb(150, 150, 150);
-    font-size: 26px;
+    font-size: 24px;
     border-collapse: collapse;
     height: 50px;
     color: rgb(150, 150, 150);
@@ -105,26 +105,20 @@ section {
     transition: .5s;
     text-shadow: 0 2px 5px rgba(0,0,0,.5);
 }
-
 .ratingStars label:hover:after,
 .ratingStars label:hover ~ label:after
 {
     opacity: 1;
 }
-
 .ratingStars input:checked ~ label:after
 {
     opacity: 1;
 }
-
-.shadow-textarea textarea{
-    width:800px;
-    height:200px;
-}
-
 .shadow-textarea textarea.form-control::placeholder{
     font-weight: 300;
 }
 .shadow-textarea textarea.form-control {
+    width:800px;
+    height:200px;
     padding-left: 0.8rem;
 }

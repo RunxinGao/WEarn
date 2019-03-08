@@ -69,7 +69,6 @@ select{
 .footer-classic{
     position: relative;
     height: 200px;
-    margin-top: -200px;
     clear: both;
 }
 .context-dark, .bg-gray-dark, .bg-primary {
@@ -79,11 +78,11 @@ select{
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
     color: #ffffff;
 }
-.nav-list li a:hover:before {
+/*.nav-list li a:hover:before {
     margin-left: 0;
     opacity: 1;
     visibility: visible;
-}
+}*/
 
 ul, ol {
     list-style: none;

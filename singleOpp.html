@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href ="head.css" rel = "stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="homepage-body.css">
         <link href ="singleOpp.css" rel = "stylesheet" type="text/css">
 
         <title>WeEarn.com</title>
@@ -16,7 +15,7 @@
 	<body>
 		<header>
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                    <a class="navbar-brand" href="#home">
+                    <a class="navbar-brand" href="home.html">
                         <img src="image/SmallLogo.png"  width="180" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,41 +56,44 @@
       </header>
 		
     <section class = "maindiv">
-            <div class="leftdiv text-hover">
+    		<div class=leftdiv1></div>
+            <div class="leftdiv2 text-hover">
                     <div class="form-group has-search">
                     <span class="fa fa-search form-control-feedback"></span>
                     <input type="text" class="form-control" placeholder="Search">
                    </div>
 
-              <h2 class="OppName">Earth Day at Spring Harbor</h2>
-              <div class="Description">
-                <h3>Description:</h3>
-                  <p> Each year on Earth Day, the students, teachers and community of Spring Harbor Middle School spends the day working outside to improve the local environment. Projects including tending the gardens, working in the greenhouse, pulling invasive species and other work. We provide all the tools, safety equipment and healthy snacks. Please join us!
-                  </p>
-              </div>
+              	<h2 class="OppName">Earth Day at Spring Harbor</h2>
+              	<div class="Description">
+                	<h3>Description:</h3>
+                  	<p> Each year on Earth Day, the students, teachers and community of Spring Harbor Middle School spends the day working outside to improve the local environment. Projects including tending the gardens, working in the greenhouse, pulling invasive species and other work. We provide all the tools, safety equipment and healthy snacks. Please join us!
+                  	</p>
+              	</div>
 
-              <div class="Date">
-                <h3>Date:</h3>
-                  <p>Start:Apr 22, 2019</p>
-                  <P>End: Apr 22, 2019</P>
-              </div>
+              	<div class="Date">
+                	<h3>Date:</h3>
+                  		<p>Start:Apr 22, 2019</p>
+                  		<P>End: Apr 22, 2019</P>
+              	</div>
     
-              <div class="Location">
-                 <h3>Location:</h3>
-                  <p>Spring Harbor Middle School 1110 Spring Harbor Dr. Madison, WI 53705</p>
-              </div>
-              <div class="container processBar myProcessBar" style="width: 800px">
-                <div class="progress">
-                <div class="progress-bar" aria-valuenow="40" aria-valuemax="100" aria-valuemin="0" style="width:40%;">
-                </div>
+              	<div class="Location">
+                 	<h3>Location:</h3>
+                  	<p>Spring Harbor Middle School 1110 Spring Harbor Dr. Madison, WI 53705</p>
+              	</div>
 
-                </div>
-                  <button type="button" class="btn btn-info">Join Us!</button>
-              </div>
-            </div>
-            
+				<div class="row">
+  					<div id="processbarOverall"class="progress progress-striped active">
+    					<div id="progressbar" class="progress-bar progress-bar-success" role="progressbar" >
+   						</div>
+  					</div>
+  					<div class="occupy">   </div>
+  					<div class="button btn-toolbar" ><button class="btn btn-warning">Join us!</button></div>
+				</div>
+
+       </div>       
             <div class="centerdiv"></div>
-            <div class="rightdiv text-hover">   
+
+            <div class="rightdiv2 text-hover">   
               <div class="agency">
                  <a href="http://www.volunteeryourtime.org/agency/detail/?agency_id=52294">
                   <img src="image/agency.jpg" width="300" height="290">
@@ -100,5 +102,38 @@
             </div>
 
     </section>
+
+     <footer class = "secton footer-classic context-dark" style="background: #2d3246;">
+        <div class = "container-fluid pt-4">
+          <div class = "row">
+            <div class= "col-md-4">
+               <div class="pr-xl-4"><a class="brand" href="home.html"><img class="brand-logo-light"  src="image/SmallLogo.png"  width="180" alt=""></a>
+                <p>Hello from Madison Wisconsin!</p>
+              </div>
+            </div>
+              <div class = "col-md-4">
+                  <h5>Contacts</h5>
+                  <dl class = "contact-list">
+                    <dt>Address: </dt>
+                    <dd>1210 W Dayton St, Madison, WI 53706</dd>
+                  </dl>
+                  <dl class="contact-list">
+                    <dt>email:</dt>
+                    <dd><a href="mailto:#">WEarn@gmail.com</a></dd>
+                  </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                    <h5>Links</h5>
+                    <ul class="nav-list">
+                      <li><a href="#">United Way </a></li>
+                      <li><a href="#">Agencies</a></li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="#">Contacts</a></li>
+                    </ul>
+                  </div>
+          </div>
+        </div>
+      
+      </footer>
 	</body>
 </html>

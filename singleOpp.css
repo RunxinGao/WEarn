@@ -1,6 +1,3 @@
-.OppName{
-
-}
 
 /* Bootstrap 4 text input with search icon */
 
@@ -20,38 +17,67 @@
 }
 section{
     margin-top:30px;
-    margin-left:300px;
+    margin-left:0px;
     margin-bottom:30px;
+    margin-right: 0px;
+    font-size: 22px;
 }
 .maindiv:{
-    width:100%;
+    width:90%;
     padding:10%;
     overflow:hidden; 
 }
  
  
-.leftdiv{
-    float:left;
-    width:40%;
-}
- 
-.rightdiv{
-    float:right;
-    width:45%;
-    
-}
- 
-.centerdiv{
+.leftdiv1{
     float:left;
     width:10%;
+    min-height: 1px;
+
+}
+
+.leftdiv2{
+    float:left;
+    width:55%;
+}
+.rightdiv2{
+    float:right;
+    width:30%;
+}
+
+.centerdiv{
+    float:left;
+    width:3%;
     border-right: 3px solid gray;
-    padding-bottom:280px; 
-    margin-bottom:-280px;  
+    padding-bottom:500px; 
+    margin-bottom:-500px;  
 }
 h3:hover,li:hover,ol:hover{
     color:#A8D8B9;
 
 }
 .myProcessBar{
-margin-left: 0%;
+margin-left: 0px;
+}
+
+#processbarOverall{
+    margin-left: 15px;
+    width: 400px; 
+    height: 35px;
+}
+#progressbar{
+    width:40%;
+}
+.button{
+    margin-left: 70px;
+    display: inline;
+    height: 20px;
+}
+
+.occupy{
+min-width: 10px
+min-height：35px;
+}
+.Location{
+     visibility: collapse;
 }

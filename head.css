@@ -64,41 +64,6 @@ button,
 select{
     text-transform: none;
 }
-/*--------------body----------*/
-section{
-	margin-top:30px;
-	margin-left: 20%;
-}
-.maindiv{
- 	width:100%;
-    padding-bottom: 280px;
-    overflow:hidden; 
-}
- 
- 
-.leftdiv{
-	float:left;
-	width:40%;
-}
- 
-.rightdiv{
-	float:right;
-	width:45%;
-	
-}
-  
-.centerdiv{
-	float:left;
-	width:5%;
-	border-right: 3px solid gray;
-	padding-bottom:280px; 
-	margin-bottom:-280px;  
-}
-h3:hover,li:hover,ol:hover{
-	color:#A8D8B9;
-
-}
-
 
 /*-------------foooter-----------*/ 
 .footer-classic{

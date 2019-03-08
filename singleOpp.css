@@ -19,7 +19,8 @@ section{
     margin-top:30px;
     margin-left:0px;
     margin-bottom:30px;
-    margin-right: 
+    margin-right: 0px;
+    font-size: 22px;
 }
 .maindiv:{
     width:90%;
@@ -28,23 +29,28 @@ section{
 }
  
  
-.leftdiv{
+.leftdiv1{
     float:left;
-    width:60%;
+    width:10%;
+    min-height: 1px;
+
 }
- 
-.rightdiv{
+
+.leftdiv2{
+    float:left;
+    width:55%;
+}
+.rightdiv2{
     float:right;
-    width:35%;
-    
+    width:30%;
 }
- 
+
 .centerdiv{
     float:left;
-    width:5%;
+    width:3%;
     border-right: 3px solid gray;
-    padding-bottom:280px; 
-    margin-bottom:-280px;  
+    padding-bottom:500px; 
+    margin-bottom:-500px;  
 }
 h3:hover,li:hover,ol:hover{
     color:#A8D8B9;
@@ -52,4 +58,26 @@ h3:hover,li:hover,ol:hover{
 }
 .myProcessBar{
 margin-left: 0px;
+}
+
+#processbarOverall{
+    margin-left: 15px;
+    width: 400px; 
+    height: 35px;
+}
+#progressbar{
+    width:40%;
+}
+.button{
+    margin-left: 70px;
+    display: inline;
+    height: 20px;
+}
+
+.occupy{
+min-width: 10px
+min-height：35px;
+}
+.Location{
+     visibility: collapse;
 }

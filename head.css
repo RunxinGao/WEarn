@@ -4,15 +4,35 @@ body{
     height: 100%;
 }
 
-.navbar-nav  li{
+.wearn-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    margin: 0 !important;
+    padding: 18px 0;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.wearn-header.scrollable{
+    position: relative;
+    top: auto;
+}
+
+.wearn-header .navbar-nav 
+.nav-item .nav-link {
+    color: #007db8;
 	display: inline-block;
 	margin-left: 60px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
+   
+    font-weight: 600;
+    font-size: 22px;
     position: relative;
 
 }
+
 
 .big-banner{
     background-image: url('image/Campaignpic.jpg');

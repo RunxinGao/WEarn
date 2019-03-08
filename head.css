@@ -69,7 +69,12 @@ select{
 .footer-classic{
     position: relative;
     height: 200px;
+<<<<<<< HEAD
     clear: both;
+=======
+    margin-top: -200px;
+    /* clear: both; */
+>>>>>>> 39e11fd7e606cb11f59417fc2701a20ed4729934
 }
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);
@@ -78,11 +83,14 @@ select{
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
     color: #ffffff;
 }
+<<<<<<< HEAD
 /*.nav-list li a:hover:before {
     margin-left: 0;
     opacity: 1;
     visibility: visible;
 }*/
+=======
+>>>>>>> 39e11fd7e606cb11f59417fc2701a20ed4729934
 
 ul, ol {
     list-style: none;

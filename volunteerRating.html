@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!--required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewpoint" content = "width=device-width,initial-scale=1,shrink-to-fit=no">
+
+        <!--Bootstrap CSS-->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel = "stylesheet" type="text/css" href ="head.css">
+        <link rel = "stylesheet" type="text/css" href ="homepage-body.css">
+        <link rel = "stylesheet" type="text/css" href ="footer.css">
+        <link href ="head.css" rel = "stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="volunteerRating.css">
+
+        <title>WeEarn.com</title>
+        <link rel="shortcut icon" href="image/FaviconLogo.png" type="title_icon.png" />  
+
+        <!--Font Awesome Icon Library-->
+        <meta charset='utf-8'>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+      <header>
+        <nav class="wearn-header scrollable navbar navbar-expand-lg navbar-light bg-white">
+                <a class="navbar-brand" href="home.html">
+                    <img src="image/SmallLogo.png"  width="180" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto container-fluid">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#opportunityList">Opportunity <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#eventList">Event</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#agencyList">Agency</a>
+                          </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#help">Help</a>
+                    </li>
+                  </ul>
+
+                  <div class = "nav-item col-3 ">
+                        <form class="form-inline my-2 my-lg-0 ">
+                            <input class="form-control form-control-lg mr-sm-0 col-8 bg-light border-0" style="border-radius: 5px 0px 0px 5px"
+                            type="search" placeholder="Search for..." aria-label="Search">
+                             
+                            <button class="btn btn-outline-light btn-lg my-2 my-sm-0 col-2" style="border-radius: 0px 5px 5px 0px"
+                            type="submit"><i class="fas fa-search text-danger "></i></button>
+        
+                            </form>
+                    </div>
+                
+                    <a href="#LoginPortal"  class="nav-link btn btn-outline-primary btn-md" >Log In</a>
+                    <a href="#signupPortal" class="nav-link btn btn-primary mx-2 btm-md">Sign Up</a>
+                </div> 
+              </nav>
+              
+  </header>
+
+                <div>
+                    <table class = "table table-striped rating_header">
+                        <thead>
+                            <tr>
+                                <th width = 70%> <div class = "eventName"><p class="font-weight-bold">Event Name</p></div></th>
+                                <th class = "agencyRating" width = 30%>
+                                    <div><p class="font-weight-bold">Agency Name</p></div>
+                                    <div class="ratingStars-outer">
+                                        <div class="ratingStars-inner"></div>
+                                    </div>
+                                    <span class="number-rating"></span>
+                                </th>
+                             
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <div class="container">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Questions</th>
+                                    <th>Rating</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="QuestionOne">
+                                    <td>Rate your volunteer experience in this event: </td>
+                                    <td>
+                                            
+                                            
+                                            
+                                              <div class="ratingStars">
+                                                <input type="radio" name="starOne" id = "star1One"><label for="star1One"></label>
+                                                <input type="radio" name="starOne" id = "star2One"><label for="star2One"></label>
+                                                <input type="radio" name="starOne" id = "star3One"><label for="star3One"></label>
+                                                <input type="radio" name="starOne" id = "star4One"><label for="star4One"></label>
+                                                <input type="radio" name="starOne" id = "star5One"><label for="star5One"></label>
+                                              </div>
+                                            
+                                    </td>
+                                </tr>
+                                <tr class="QuestionTwo">
+                                    <td>Rate to what degree this event matches your anticipation: </td>
+                                    <td>
+                                            <div class="ratingStars">
+                                                    <input type="radio" name="starTwo" id = "star1Two"><label for="star1Two"></label>
+                                                    <input type="radio" name="starTwo" id = "star2Two"><label for="star2Two"></label>
+                                                    <input type="radio" name="starTwo" id = "star3Two"><label for="star3Two"></label>
+                                                    <input type="radio" name="starTwo" id = "star4Two"><label for="star4Two"></label>
+                                                    <input type="radio" name="starTwo" id = "star5Two"><label for="star5Two"></label>
+                                                  </div>
+                                    </td>
+                                </tr>
+                                <tr class="QuestionThree">
+                                    <td>Rate you willingness to work with this agent in the future: </td>
+                                    <td>
+                                            <div class="ratingStars">
+                                                    <input type="radio" name="starThree" id = "star1Three"><label for="star1Three"></label>
+                                                    <input type="radio" name="starThree" id = "star2Three"><label for="star2Three"></label>
+                                                    <input type="radio" name="starThree" id = "star3Three"><label for="star3Three"></label>
+                                                    <input type="radio" name="starThree" id = "star4Three"><label for="star4Three"></label>
+                                                    <input type="radio" name="starThree" id = "star5Three"><label for="star5Three"></label>
+                                                  </div>
+                                    </td>
+                                </tr>
+                                <tr class="QuestionFour">
+                                    <td>Rate the climax of the teamwork with this agent: </td>
+                                    <td>
+                                            <div class="ratingStars">
+                                                    <input type="radio" name="starFour" id = "star1Four"><label for="star1Four"></label>
+                                                    <input type="radio" name="starFour" id = "star2Four"><label for="star2Four"></label>
+                                                    <input type="radio" name="starFour" id = "star3Four"><label for="star3Four"></label>
+                                                    <input type="radio" name="starFour" id = "star4Four"><label for="star4Four"></label>
+                                                    <input type="radio" name="starFour" id = "star5Four"><label for="star5Four"></label>
+                                                  </div>
+                                    </td>
+                                </tr>
+                                <tr class="QuestionFive">
+                                    <td>Rate your satisfaction with the support by this agent: </td>
+                                    <td>
+                                            <div class="ratingStars">
+                                                    <input type="radio" name="starFive" id = "star1Five"><label for="star1Five"></label>
+                                                    <input type="radio" name="starFive" id = "star2Five"><label for="star2Five"></label>
+                                                    <input type="radio" name="starFive" id = "star3Five"><label for="star3Five"></label>
+                                                    <input type="radio" name="starFive" id = "star4Five"><label for="star4Five"></label>
+                                                    <input type="radio" name="starFive" id = "star5Five"><label for="star5Five"></label>
+                                                  </div>
+                                    </td>
+                                </tr>
+                                <tr class="QuestionSix">
+                                    <td>Rate to what degree this event benefit your community: </td>
+                                    <td>
+                                            <div class="ratingStars">
+                                                    <input type="radio" name="starSix" id = "star1Six"><label for="star1Six"></label>
+                                                    <input type="radio" name="starSix" id = "star2Six"><label for="star2Six"></label>
+                                                    <input type="radio" name="starSix" id = "star3Six"><label for="star3Six"></label>
+                                                    <input type="radio" name="starSix" id = "star4Six"><label for="star4Six"></label>
+                                                    <input type="radio" name="starSix" id = "star5Six"><label for="star5Six"></label>
+                                                  </div>
+                                    </td>
+                                </tr>
+                                <tr class="QuestionSeven">
+                                    <td>Rate your sense of accomplishment from this event: </td>
+                                    <td>
+                                            <div class="ratingStars">
+                                                    <input type="radio" name="starSeven" id = "star1Seven"><label for="star1Seven"></label>
+                                                    <input type="radio" name="starSeven" id = "star2Seven"><label for="star2Seven"></label>
+                                                    <input type="radio" name="starSeven" id = "star3Seven"><label for="star3Seven"></label>
+                                                    <input type="radio" name="starSeven" id = "star4Seven"><label for="star4Seven"></label>
+                                                    <input type="radio" name="starSeven" id = "star5Seven"><label for="star5Seven"></label>
+                                                  </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class = "comment-section">
+                            <button type="button" class="btn btn-raised btn-success cbutton">Comment: </button>
+                            <div class="form-group shadow-textarea">
+                              <textarea class="form-control z-depth-1"placeholder="Share your thoughts here..."></textarea>
+                            </div>
+          
+                            <button type="button" class="btn btn-raised btn-success sbutton" href="#submitPortal" >Submit</button>
+                            <button type="button" class="btn btn-raised btn-success ebutton" href="#cancelPortal" >Cancel</button>
+                            
+                            <div style=" height:100px " >   </div>
+                    </div>
+                    
+                  <footer class = "secton footer-classic context-dark" style="background: #2d3246;">
+                    <div class = "container-fluid pt-4">
+                        <div class = "row">
+                        <div class= "col-md-4">
+                        <div class="pr-xl-4"><a class="brand" href="homepage/homepage.html"><img class="brand-logo-light"  src="image/SmallLogo.png"  width="180" alt=""></a>
+                        <p class ="pt-2">Hello from Madison Wisconsin!</p>
+                      </div>
+                    </div>
+                      <div class = "col-md-4">
+                          <h5>Contacts</h5>
+                          <dl class = "contact-list">
+                            <dt>Address: </dt>
+                            <dd>1210 W Dayton St, Madison, WI 53706</dd>
+                          </dl>
+                          <dl class="contact-list">
+                            <dt>email:</dt>
+                            <dd><a href="mailto:#">WEarn@gmail.com</a></dd>
+                          </dl>
+                        </div>
+                        <div class="col-md-4 col-xl-3">
+                            <h5>Links</h5>
+                            <ul class="nav-list">
+                              <li><a href="#">United Way </a></li>
+                              <li><a href="#">Agencies</a></li>
+                              <li><a href="#">News</a></li>
+                              <li><a href="#">Contacts</a></li>
+                            </ul>
+                          </div>
+                  </div>
+                </div>
+              
+              </footer>
+          
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+          <!-- Optional JavaScript -->
+          <script src="volunteerRating.js" type='text/javascript'></script>
+        </body>
+</html>

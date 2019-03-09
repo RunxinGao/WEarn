@@ -70,11 +70,16 @@ select{
     position: relative;
     height: 200px;
 <<<<<<< HEAD
+    /* margin-top: -200px; */
+    clear: both;
+=======
+<<<<<<< HEAD
     clear: both;
 =======
     margin-top: -200px;
     /* clear: both; */
 >>>>>>> 39e11fd7e606cb11f59417fc2701a20ed4729934
+>>>>>>> 977080c69f7c9d0307cd9c00abbb5263b38b4482
 }
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);

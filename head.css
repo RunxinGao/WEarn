@@ -69,8 +69,8 @@ select{
 .footer-classic{
     position: relative;
     height: 200px;
-    margin-top: -200px;
-    /* clear: both; */
+    /* margin-top: -200px; */
+    clear: both;
 }
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);

@@ -1,0 +1,89 @@
+
+
+.container-fluid{
+  float:bottom;
+}
+
+.rating_header {
+
+background-color: 
+rgb(190, 146,
+116);
+
+}
+
+
+
+.eventName {
+
+font-size: 30px;
+
+margin-left: 
+20%
+
+}
+
+
+
+.ratingStars-outer {
+
+position: relative;
+
+display: inline-block;
+
+}
+
+
+
+.ratingStars-inner {
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+white-space: 
+nowrap;
+
+overflow: hidden;
+
+width: 0;
+
+}
+
+
+
+.ratingStars-outer::before {
+
+
+content: "\f005\f005\f005\f005\f005";
+font-family: 
+"font Awesome 5 Free";
+
+font-weight: 
+900;
+
+color: #ccc;
+
+
+
+}
+
+
+
+.ratingStars-inner::before {
+
+
+content: "\f005\f005\f005\f005\f005";
+font-family: 
+"font Awesome 5 Free";
+
+font-weight: 
+900;
+
+color: #f8ce0b;
+
+
+
+}

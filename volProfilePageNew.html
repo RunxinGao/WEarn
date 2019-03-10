@@ -59,36 +59,55 @@
                   </nav>
               </header>
 <section>
-<div class="d-flex flex-column bd-highlight mb-3">
-<!-- <div class="d-flex justify-content-around"> -->
-<div class="d-flex flex-row justify-content-around bd-highlight mb-2">
+<!-- This is the start of jumbotron! -->
+	<div class="jumbotron jumbotron-fluid" style="height: 12rem">
+  <div class="container">
+    <h1 class="display-4">Volunteer's Profile</h1>
+    <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+  </div>
+</div>
+
+
+<div class="d-flex flex-row justify-content-around bd-highlight mb-3">
   <div class="p-2 bd-highlight">
 <!-- This is the first row-left profile card -->
-<div class="card bg-light text-dark" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+<div class="card bg-light text-dark" style="width: 22rem; height: 22rem">
+	<div class="row">
+		<div class = "col">
+  <img src="image/volunteer.jpg" class="card-img-top" alt="volunteer profile image" style="width:150px; height:150px">
+</div>
+	<div class="col">
+		<br>
+		<br>
+  <button type="button" class="btn btn-success">
+  Edit Profile <span class="badge badge-light"></span>
+  <span class="sr-only">unread messages</span>
+</div>
+</div>
+</button>
   <div class="card-body">
-  	<h5>Name</h5>
-       <h5>email@example.com</h5>
-       <h5>Zip Code</h5>
+  	<h6>name: Volunteer Vol</h6>
+       <h6>email: volunteer@gmail.com</h6>
+       <h6>zip Code: 00000</h6>
        <ul class = "interest">
         <li>
-         <h5>Interest1</h5>
+         <h6>Interest1</h6>
         </li>
         <li>
-         <h5>Interest2</h5>
+         <h6>Interest2</h6>
         </li>
         <li>
-         <h5>Interest3</h5>
+         <h6>Interest3</h6>
         </li>
        </ul>
   </div>
 </div>
 </div>
 
-<div class="card bg-light text-dark" style="width: 18rem;">
-	<div class="card-body">
-		<h5>Overall Rating</h5>
 <div class="p-2 bd-highlight">
+<div class="card bg-light text-dark" style="width: 26rem; height: 22rem">
+	<div class="card-body">
+		<h5>Average Score</h5>
 <div class = "agencyRating">
 <div class="ratingStars-outer">
 	<div class="ratingStars-inner"></div>
@@ -96,33 +115,72 @@
 <span class="number-rating"></span>
 </div>
 <br>
-</div>
-	<!-- <div class="progress style="height: 2px;">
-  <div class="progress-bar role="progressbar" aria-valuenow="80"
-  aria-valuemin="0" aria-valuemax="100" style="width:40%">
-    80% users rated 5 star
-  </div> -->
 
-  <div class="progress">
-  <div class="progress-bar bg-success" role="progressbar" style="width: 80%; text-decoration-color: black;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80% users rated 5 star</div>
-</div>
-</div>
-<br>
-<div class="progress">
-  <div class="progress-bar bg-warning" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15% users rated 4 star</div>
+
+  <div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-success text-dark" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80% users rated 5 star</div>
 </div>
 <br>
-<div class="progress">
-  <div class="progress-bar bg-danger" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5% users rated 3 star</div>
+<div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15% users rated 4 star</div>
+</div>
+<br>
+<div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-danger text-dark" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5% users rated 3 star</div>
+</div>
+<br>
+<div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-danger text-dark" role="progressbar" style="width: 0%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">0% users rated 2 star</div>
+</div>
+<br>
+<div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-danger text-dark" role="progressbar" style="width: 0%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">0% users rated 1 star</div>
 </div>
 <br>
 	<h5>165 people rated</h5>
 </div>
 </div>
 </div>
+
+
+<div class="p-2 bd-highlight">
+	<div class="col">
+		<div class="row">
+        <button type="button" class="btn btn-primary">
+          Notifications 
+        	<span class="badge badge-light">4</span>
+        </button>
+    </div>
+    <br>
+    <br>
+        <div class="row">
+
+    <a href="" class="questions">Questions about your score?</a>
+        </div>
+    </div>
+</div>
 </div>
 
-<!-- <div class="container-fluid"> -->
+<div class="container-fluid">
+<div class="row">
+
+	<div class="col">
+		<div class="list-group" style="width: 30rem">
+  <a href="#" class="list-group-item list-group-item-action">Today's Event</a>
+
+  
+  <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+ 
+<!-- add d-flex d-row to this row of activities & icon of event -->
+
+</div>
+	</div>
+
+	<div class="col" id="calendar">
+		<h5>My Calendar</h5>
 	<div class="p-2 bd-highlight">
 <input id="datepicker" width="276" />
     <script>
@@ -130,7 +188,27 @@
             uiLibrary: 'bootstrap4'
         });
     </script>
-<!-- </div> -->
+	</div>
+	</div>
+
+	<div class="col">
+		<div class="card">
+  <div class="card-body">
+    <ul>
+			<h5>My Activities</h5>
+			<li>Activity1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</li>
+			<li>Activity2 nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.</li>
+			<li>Activity3 Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris </li>
+		</ul>
+  </div>
+</div>	
+	</div>
+
+</div>
 </div>
 </section>
 
@@ -164,7 +242,6 @@
                   </div>
           </div>
         </div>
-      
       </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

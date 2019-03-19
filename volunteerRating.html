@@ -9,8 +9,11 @@
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel = "stylesheet" type="text/css" href ="head.css">
+        <link rel = "stylesheet" type="text/css" href ="homepage-body.css">
+        <link rel = "stylesheet" type="text/css" href ="footer.css">
+        <link href ="head.css" rel = "stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="volunteerRating.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
         <title>WeEarn.com</title>
         <link rel="shortcut icon" href="image/FaviconLogo.png" type="title_icon.png" />  
@@ -64,24 +67,24 @@
               
   </header>
 
-                <section class="main">
-                  
-                    <table class = "table table-striped rating_header">
-                        <thead>
-                            <tr>
-                                <th width = 70%> <div class = "eventName"><p class="font-weight-bold">Event Name</p></div></th>
-                                <th class = "agencyRating" width = 30%>
-                                    <div><p class="font-weight-bold">Agency Name</p></div>
-                                    <div class="ratingStars-outer">
-                                        <div class="ratingStars-inner"></div>
-                                    </div>
-                                    <span class="number-rating"></span>
-                                </th>
-                             
-                            </tr>
-                        </thead>
-                    </table>
-               
+  <section class = "maindiv">
+
+                <div class = "sub-header rating_header">
+                  <div witdh = 70% class = "eventName">
+                    <p class = "font-weight-bold">Event Name</p>
+                  </div>
+                  <div class = "agencyRating" width = 30%>
+                    <div><p class="font-weight-bold">Agency Name</p></div>
+                    <div>
+                      <div class="ratingStars-outer">
+                        <div class="ratingStars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </div>
+                  </div>  
+                </div>
+
+                <div style=" height:30px "></div>
 
                 <div class="container">
                         <table class="table table-striped">
@@ -185,49 +188,52 @@
                     </div>
 
                     <div class = "comment-section">
-                            <button type="button" class="btn btn-raised btn-success cbutton">Comment: </button>
                             <div class="form-group shadow-textarea">
-                              <textarea class="form-control z-depth-1"placeholder="Share your thoughts here..."></textarea>
+                              <textarea class="form-control z-depth-1"placeholder="Comment here ..."></textarea>
                             </div>
           
-                            <button type="button" class="btn btn-raised btn-success sbutton" href="#submitPortal" >Submit</button>
-                            <button type="button" class="btn btn-raised btn-success ebutton" href="#cancelPortal" >Cancel</button>
+                            <div style=" height:50px " >   </div>
+
+                            <button type="button" class="btn btn-primary sbutton" href="#submitPortal" >Submit</button>
+                            <button type="button" class="btn btn-primary ebutton" href="#cancelPortal" >Cancel</button>
                             
+                            <div style=" height:50px " >   </div>
                     </div>
-                  </section>
+          </section>
                     
                   <footer class = "secton footer-classic context-dark" style="background: #2d3246;">
-                      <div class = "container-fluid pt-4">
+                    <div class = "container-fluid pt-4">
                         <div class = "row">
-                          <div class= "col-md-4 ">
-                             <div class="pr-xl-4"><a class="brand" href="homepage/homepage.html"><img class="brand-logo-light"  src="image/SmallLogo.png"  width="180" alt=""></a>
-                              <p class ="pt-2">Hello from Madison Wisconsin!</p>
-                            </div>
-                          </div>
-                            <div class = "col-md-4">
-                                <h5>Contacts</h5>
-                                <dl class = "contact-list">
-                                  <dt>Address: </dt>
-                                  <dd>1210 W Dayton St, Madison, WI 53706</dd>
-                                </dl>
-                                <dl class="contact-list">
-                                  <dt>email:</dt>
-                                  <dd><a href="mailto:#">WEarn@gmail.com</a></dd>
-                                </dl>
-                              </div>
-                              <div class="col-md-4 col-xl-3">
-                                  <h5>Links</h5>
-                                  <ul class="nav-list">
-                                    <li><a href="#">United Way </a></li>
-                                    <li><a href="#">Agencies</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Contacts</a></li>
-                                  </ul>
-                                </div>
-                        </div>
+                        <div class= "col-md-4">
+                        <div class="pr-xl-4"><a class="brand" href="homepage/homepage.html"><img class="brand-logo-light"  src="image/SmallLogo.png"  width="180" alt=""></a>
+                        <p class ="pt-2">Hello from Madison Wisconsin!</p>
                       </div>
-                    
-                    </footer>
+                    </div>
+                      <div class = "col-md-4">
+                          <h5>Contacts</h5>
+                          <dl class = "contact-list">
+                            <dt>Address: </dt>
+                            <dd>1210 W Dayton St, Madison, WI 53706</dd>
+                          </dl>
+                          <dl class="contact-list">
+                            <dt>email:</dt>
+                            <dd><a href="mailto:#">WEarn@gmail.com</a></dd>
+                          </dl>
+                        </div>
+                        <div class="col-md-4 col-xl-3">
+                            <h5>Links</h5>
+                            <ul class="nav-list">
+                              <li><a href="#">United Way </a></li>
+                              <li><a href="#">Agencies</a></li>
+                              <li><a href="#">News</a></li>
+                              <li><a href="#">Contacts</a></li>
+                            </ul>
+                          </div>
+                  </div>
+                </div>
+              
+              </footer>
+          
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

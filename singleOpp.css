@@ -1,0 +1,50 @@
+
+body{
+    background-color: #CCCC9A;
+}
+.card{
+   width: 1000px;
+   margin-left: 14%;
+   box-shadow: 5px 10px #888888;
+}
+
+
+.position{
+ margin-right: 50%;
+}
+.jum_style{
+
+background: -webkit-linear-gradient(right,#00AA90, #86C166); 
+background: -o-linear-gradient(right,#00AA90, #86C166); 
+background: -moz-linear-gradient(right,#00AA90, #86C166); 
+background: linear-gradient(right,#00AA90, #86C166); 
+
+}
+#skilsls:before{
+    content: "I am HERE";
+}
+.myProcessBar{
+margin-left: 0px;
+}
+
+#processbarOverall{
+    margin-left: 15px;
+    width: 400px; 
+    height: 35px;
+}
+#progressbar{
+    width:40%;
+}
+.button{
+    margin-left: 70px;
+    display: inline;
+    height: 20px;
+}
+
+.occupy{
+min-width: 10px
+min-height：35px;
+}
+.Location{
+     visibility: collapse;
+}

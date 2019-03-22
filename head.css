@@ -40,6 +40,7 @@ body{
 
 
 
+
 .big-banner{
     background-image: url('image/Campaignpic.jpg');
     background-size: cover;
@@ -65,7 +66,7 @@ select{
     text-transform: none;
 }
 
-/*-------------foooter-----------*/ 
+/*-------------footer-----------*/ 
 .footer-classic{
     position: relative;
     height: 200px;

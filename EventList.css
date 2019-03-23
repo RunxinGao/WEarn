@@ -1,0 +1,90 @@
+.rating_header {
+    display: flex;
+    background:linear-gradient(to right, rgb(0,127,255), rgb(115, 199, 255));
+    height: 100px;
+    color: white;
+}
+
+.eventName {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 15%
+}
+
+.eventList {
+    display: flex;
+    margin-left: 20%;
+    float: middle;
+
+}
+
+.EventArray {
+    display: flex;
+}
+
+.form-gradient {
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+    width: 100%;
+    border: 2px solid rgb(236, 230, 230);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subheader {
+    margin-bottom: 45px;
+}
+
+.header {
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+    width: 100%;
+}
+
+.eventPic{
+    margin-bottom: 20px;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+}
+
+.grid-container {
+    width: 75%;
+    margin-left: 12.5%;
+    display: grid;
+    grid-gap: 20px 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-display {
+    text-align: center;
+    font-size:28px;
+    font-weight: 2px;
+    margin-bottom: 60px;
+}
+
+.random-display {
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+.search{
+    display: flex;
+    margin-left: 12.5%;
+    margin-bottom: 60px;
+    width: 75%;
+}
+
+.searchButton{
+    cursor: pointer;
+    border: none;
+    background: rgb(235, 233, 233);
+}
+

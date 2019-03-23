@@ -1,60 +1,27 @@
 
-/* Bootstrap 4 text input with search icon */
-
-.has-search .form-control {
-    padding-left: 2.375rem;
+body{
+    background-color: #CCCC9A;
 }
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-}
-section{
-    margin-top:30px;
-    margin-left:0px;
-    margin-bottom:30px;
-    margin-right: 0px;
-    font-size: 22px;
-}
-.maindiv:{
-    width:90%;
-    padding:10%;
-    overflow:hidden; 
-}
- 
- 
-.leftdiv1{
-    float:left;
-    width:10%;
-    min-height: 1px;
-
+.card{
+   width: 1000px;
+   margin-left: 14%;
+   box-shadow: 5px 10px #888888;
 }
 
-.leftdiv2{
-    float:left;
-    width:55%;
-}
-.rightdiv2{
-    float:right;
-    width:30%;
-}
 
-.centerdiv{
-    float:left;
-    width:3%;
-    border-right: 3px solid gray;
-    padding-bottom:500px; 
-    margin-bottom:-500px;  
+.position{
+ margin-right: 50%;
 }
-h3:hover,li:hover,ol:hover{
-    color:#A8D8B9;
+.jum_style{
 
+background: -webkit-linear-gradient(right,#00AA90, #86C166); 
+background: -o-linear-gradient(right,#00AA90, #86C166); 
+background: -moz-linear-gradient(right,#00AA90, #86C166); 
+background: linear-gradient(right,#00AA90, #86C166); 
+
+}
+#skilsls:before{
+    content: "I am HERE";
 }
 .myProcessBar{
 margin-left: 0px;

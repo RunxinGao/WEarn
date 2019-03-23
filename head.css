@@ -42,7 +42,7 @@ body{
 
 
 .big-banner{
-    background-image: url('image/Campaignpic.jpg');
+    background-image: url('image/Campaignpicold.jpg');
     background-size: cover;
 }
 
@@ -70,28 +70,27 @@ select{
 .footer-classic{
     position: relative;
     height: 200px;
-<<<<<<< HEAD
     clear: both;
-=======
-    margin-top: -200px;
-    /* clear: both; */
->>>>>>> 39e11fd7e606cb11f59417fc2701a20ed4729934
+
 }
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #ffffff;
+    color:rgba(255, 255, 255, 0.8);
 }
-<<<<<<< HEAD
-/*.nav-list li a:hover:before {
+
+.nav-list li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
     margin-left: 0;
     opacity: 1;
     visibility: visible;
-}*/
-=======
->>>>>>> 39e11fd7e606cb11f59417fc2701a20ed4729934
+}
 
 ul, ol {
     list-style: none;

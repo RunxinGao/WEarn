@@ -7,14 +7,15 @@
         <!--Bootstrap CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href ="head.css" rel = "stylesheet" type="text/css">
+        <link href ="footer.css" rel = "stylesheet" type="text/css">
+         <link href ="head.css" rel = "stylesheet" type="text/css">
         <link href ="singleOpp.css" rel = "stylesheet" type="text/css">
 
         <title>WeEarn.com</title>
 	</head>
 	<body>
 		<header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="wearn-header scrollable navbar navbar-expand-lg navbar-light bg-white" aria-label="Main">
                     <a class="navbar-brand" href="home.html">
                         <img src="image/SmallLogo.png"  width="180" alt="">
                     </a>
@@ -23,7 +24,7 @@
                     </button>
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto container-fluid ">
+                      <ul class="navbar-nav mr-auto container-fluid">
                         <li class="nav-item">
                           <a class="nav-link" href="#opportunityList">Opportunity <span class="sr-only">(current)</span></a>
                         </li>
@@ -49,66 +50,128 @@
                                 </form>
                         </div>
                     
-                        <button type="button" class="nav-link btn btn-outline-primary btn-md" href="#LoginPortal">Log In</a>
-                        <button type="button" class="nav-link btn btn-primary mx-2 btm-md" href="#signupPortal">Sign Up</a>
+                        <a href="#LoginPortal"  class="nav-link btn btn-outline-primary btn-md" >Log In</a>
+                        <a href="#signupPortal" class="nav-link btn btn-primary mx-2 btm-md">Sign Up</a>
                     </div> 
-                  </nav>               
+                  </nav>
       </header>
-		
-    <section class = "maindiv">
-    		<div class=leftdiv1></div>
-            <div class="leftdiv2 text-hover">
-                    <div class="form-group has-search">
-                    <span class="fa fa-search form-control-feedback"></span>
-                    <input type="text" class="form-control" placeholder="Search">
-                   </div>
+		  
+      <div class="jumbotron jumbotron-fluid jum_style" style="height: 12rem">
+       <div class="container">
+         <h1 class="display-4">Opportunities</h1>
+    <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+       </div>
+      </div>
+<!-- Card with main Picture and Title-->
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav card-header-pills" style="font-size: 22px;">
+     
+        <a class="nav-link" href="#Details"> Details</a>
 
-              	<h2 class="OppName">Earth Day at Spring Harbor</h2>
-              	<div class="Description">
-                	<h3>Description:</h3>
-                  	<p> Each year on Earth Day, the students, teachers and community of Spring Harbor Middle School spends the day working outside to improve the local environment. Projects including tending the gardens, working in the greenhouse, pulling invasive species and other work. We provide all the tools, safety equipment and healthy snacks. Please join us!
-                  	</p>
-              	</div>
+        <a class="nav-link" href="#card2"> Required Skills</a>
 
-              	<div class="Date">
-                	<h3>Date:</h3>
-                  		<p>Start:Apr 22, 2019</p>
-                  		<P>End: Apr 22, 2019</P>
-              	</div>
+        <a class="nav-link" href="#Agency">About the agency</a>
+
+    </ul>
+  </div>
+
+  <div class="card-body">
+    <img class="card-img-top" src="image/oppImage1.jpg" alt="Card image cap" width="100 px" height="450px">
+           <div class="card-body">
+            <h3 class="card-title">Make a Blanket Sew-In</h3>
+           </div>
+  </div>
+</div>      
+
+<div style="height: 20px;"></div>
+
+<!--card for Details-->
+<div id="Details"class="card">
+  <div class="card-body">
+    <u><h3> Details</h3></u>
+          <h4>Description</h4>
+            <p>
+                Blue Bar Quilts in Middleton is opening their classroom for an afternoon of sewing with other Project Linus Blanketeers. Bring your hand-sewing (binding, anyone?) or your sewing machine and current Linus project and join us for the afternoon. If you're ready for a new Linus project, or need materials for your current one, take advantage of the 15% discount that Blue Bar is offering for materials purchased for Project Linus quilts.
+            </p>
+              <p>
+                Please note that Project Linus will not be providing fabric, kits, or batting at this event. A Project Linus volunteer or two will be on hand that afternoon to answer questions about Project Linus, collect any completed blankets, and of course, work on their own quilt.
+              </p>
+
+              <p>
+                Registration is not mandatory, but preferred, due to classroom capacity. This activity will run during the store's normal business hours of 12 - 4 pm.
+              </p>
+           
+          <h4> What we need </h4>
+           <ul >
+             <i class="fas fa-check-circle" aria-hidden="true">
+                <ol class="skill" style="display: inline-block" >Skill A</ol>
+             </i>
+              <ol style="height: 1px"></ol>
+              <i class="fas fa-check-circle" aria-hidden="true">
+                <ol class="skill" style="display: inline-block" >Skill B</ol>
+             </i>
+           
+          </ul>
+  </div>
+</div>
+
+<div style="height: 20px;"></div>
+
+<!-- card for more description-->
+<div id="card2"class="card">
+  <div class="card-body">
+            <div class="Date">
+              <u><h3>Date:</h3></u>
+                  <p>Start:Apr 22, 2019</p>
+                  <P>End: Apr 22, 2019</P>
+            </div>
     
-              	<div class="Location">
-                 	<h3>Location:</h3>
-                  	<p>Spring Harbor Middle School 1110 Spring Harbor Dr. Madison, WI 53705</p>
-              	</div>
+            <div class="Location">
+              <h3>Location:</h3>
+                  <p>Spring Harbor Middle School 1110 Spring Harbor Dr. Madison, WI 53705</p>
+              </div>
+ 
 
-				<div class="row">
-  					<div id="processbarOverall"class="progress progress-striped active">
-    					<div id="progressbar" class="progress-bar progress-bar-success" role="progressbar" >
-   						</div>
-  					</div>
-  					<div class="occupy">   </div>
-  					<div class="button btn-toolbar" ><button class="btn btn-warning">Join us!</button></div>
-				</div>
-
-       </div>       
-            <div class="centerdiv"></div>
-
-            <div class="rightdiv2 text-hover">   
-              <div class="agency">
-                 <a href="http://www.volunteeryourtime.org/agency/detail/?agency_id=52294">
-                  <img src="image/agency.jpg" width="300" height="290">
-                  </a>
+            <div class="row">
+              <div id="processbarOverall"class="progress progress-striped active">
+                  <div id="progressbar" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100" style="width:70%" >
+                        70%
+                  </div>
+              </div>
+              <div class="occupy">   </div>
+              <div class="button btn-toolbar" ><button class="btn btn-warning">Join us!</button></div>
               </div>
             </div>
+          </div>
+</div>
+<div style="height: 20px;"></div>
 
-    </section>
+<!--card For Angency-->
+<div id="Agency"class="card">
+  <div class="card-body">
+
+  <u><h3>About the agency</h3></u>
+    <a href="https://www.projectlinus.org/"  target="_blank">
+        <img src="image/agency1.jpg" width="300" height="290" align="right">
+    </a>  
+       <p style="font-size: 20px;">
+          Project Linus National Headquarters is located in Belton, Missouri. National President Patty Gregory and Vice President Mary Balagna direct and orchestrate the activities of Project Linus chapters located across the United States. Patty has been involved with the organization in the Kansas City area since April 2000 and Mary in Central Illinois since late 1998, as chapter coordinators and now as directors and officers. Mary also maintains a very busy chapter, donating an average of 350 blankets every month to local children. With chapters in all 50 states, Project Linus continues to grow. Blankets are collected locally and distributed to children in hospitals, shelters, social service agencies, or anywhere that a child might be in need of a big hug.
+      </p>  
+     
+   </div>  
+</div>
+
+       
+            <div class="container" style="margin-bottom: 20%"></div>
 
      <footer class = "secton footer-classic context-dark" style="background: #2d3246;">
         <div class = "container-fluid pt-4">
           <div class = "row">
             <div class= "col-md-4">
-               <div class="pr-xl-4"><a class="brand" href="home.html"><img class="brand-logo-light"  src="image/SmallLogo.png"  width="180" alt=""></a>
-                <p>Hello from Madison Wisconsin!</p>
+               <div class="pr-xl-4"><a class="brand" href="homepage/homepage.html"><img class="brand-logo-light"  src="image/SmallLogo.png"  width="180" alt=""></a>
+                <p class ="pt-2">Hello from Madison Wisconsin!</p>
               </div>
             </div>
               <div class = "col-md-4">

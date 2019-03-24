@@ -1,17 +1,14 @@
 
 body{
-    background-color: #CCCC9A;
+    background-color: #FCFAF2;
 }
+
 .card{
-   width: 1000px;
    margin-left: 14%;
+   margin-right: 14%;
    box-shadow: 5px 10px #888888;
 }
 
-
-.position{
- margin-right: 50%;
-}
 .jum_style{
 
 background: -webkit-linear-gradient(right,#00AA90, #86C166); 
@@ -20,9 +17,7 @@ background: -moz-linear-gradient(right,#00AA90, #86C166);
 background: linear-gradient(right,#00AA90, #86C166); 
 
 }
-#skilsls:before{
-    content: "I am HERE";
-}
+
 .myProcessBar{
 margin-left: 0px;
 }
@@ -42,9 +37,47 @@ margin-left: 0px;
 }
 
 .occupy{
-min-width: 10px
-min-height：35px;
+height: 50px;
 }
+
 .Location{
      visibility: collapse;
 }
+
+.floatChat{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#0C9;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.float_chat{
+  margin-top:17px;
+  font-size: 30px;
+}
+
+.floatBar{
+  position: fixed;
+  text-align:center;
+  width:100px;
+  height:50px;
+  bottom:40px;
+
+}
+
+.btn-outline-warning{
+ height: 50px;
+ width: 400px;
+ background-color: orange; 
+ font-size: 30px; 
+ margin-left: 980%;
+
+}
+
+

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Agency Profile Page</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src = "star.js"></script>
+    <link rel="stylesheet" type="text/css" href="volProfilePageNew.css">
+
+    <link rel = "stylesheet" type="text/css" href ="head.css">
+    <link rel = "stylesheet" type="text/css" href ="footer.css">
+</head>
+<body>
+<header><nav class="wearn-header scrollable navbar navbar-expand-lg navbar-light bg-white" aria-label="Main">
+                    <a class="navbar-brand" href="home.html">
+                        <img src="image/SmallLogo.png"  width="180" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto container-fluid">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#opportunityList">Opportunity <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#eventList">Event</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#agencyList">Agency</a>
+                              </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#help">Help</a>
+                        </li>
+                      </ul>
+
+                      <div class = "nav-item col-3 ">
+                            <form class="form-inline my-2 my-lg-0 ">
+                                <input class="form-control form-control-lg mr-sm-0 col-8 bg-light border-0" style="border-radius: 5px 0px 0px 5px"
+                                type="search" placeholder="Search for..." aria-label="Search">
+                                 
+                                <button class="btn btn-outline-light btn-lg my-2 my-sm-0 col-2" style="border-radius: 0px 5px 5px 0px"
+                                type="submit"><i class="fas fa-search text-danger "></i></button>
+            
+                                </form>
+                        </div>
+                    
+                        <a href="#LoginPortal"  class="nav-link btn btn-outline-primary btn-md" >Log In</a>
+                        <a href="#signupPortal" class="nav-link btn btn-primary mx-2 btm-md">Sign Up</a>
+                    </div> 
+                  </nav>
+              </header>
+<section>
+<!-- This is the start of jumbotron! -->
+	<div class="jumbotron jumbotron-fluid" style="height: 12rem">
+  <div class="container">
+    <h1 class="display-4">Agency's Profile</h1>
+    <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+  </div>
+</div>
+
+
+<div class="d-flex flex-row justify-content-around bd-highlight mb-3">
+  <div class="p-2 bd-highlight">
+<!-- This is the first row-left profile card -->
+<div class="card bg-light text-dark" style="width: 22rem; height: 22rem">
+	<div class="row">
+		<div class = "col">
+  <img src="image/volunteer.jpg" class="card-img-top" alt="volunteer profile image" style="width:150px; height:150px">
+</div>
+	<div class="col">
+		<br>
+		<br>
+  <button type="button" class="btn btn-success">
+  Edit Profile <span class="badge badge-light"></span>
+  <span class="sr-only">unread messages</span>
+</div>
+</div>
+</button>
+  <div class="card-body">
+  	<h6>name: Agency</h6>
+       <h6>email: agency@gmail.com</h6>
+       <h6>phone: 6080046251</h6>
+       <h6>location: 1423 Monroe St</h6>
+       <a class="btn btn-info" href="#" role="button" class="createEvent">Create Event And Opportunity</a>
+  </div>
+</div>
+</div>
+
+<div class="p-2 bd-highlight">
+<div class="card bg-light text-dark" style="width: 26rem; height: 22rem">
+	<div class="card-body">
+		<h5>Average Score</h5>
+<div class = "agencyRating">
+<div class="ratingStars-outer">
+	<div class="ratingStars-inner"></div>
+</div>
+<span class="number-rating"></span>
+</div>
+<br>
+
+
+  <div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-success text-dark" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80% users rated 5 star</div>
+</div>
+<br>
+<div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15% users rated 4 star</div>
+</div>
+<br>
+<div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-danger text-dark" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5% users rated 3 star</div>
+</div>
+<br>
+<div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-danger text-dark" role="progressbar" style="width: 0%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">0% users rated 2 star</div>
+</div>
+<br>
+<div class="progress" style="height=1.5px">
+  <div class="progress-bar bg-danger text-dark" role="progressbar" style="width: 0%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">0% users rated 1 star</div>
+</div>
+<br>
+	<h5>165 people rated</h5>
+</div>
+</div>
+</div>
+
+<div class="p-2 bd-highlight">
+<div class="card bg-light text-dark" style="width: 22rem; height: 22rem">
+  <div class="card-body">
+    <h5 class="card-title">Rate Volunteers for Each Event</h5>
+    <br>
+    <p class="card-text">Food Pantry for LK Company</p>
+    <a class="btn btn-info" href="#" role="button">Rate Volunteers</a>
+    <p class="card-text">Children tutoring for M school</p>
+    <a class="btn btn-info" href="#" role="button">Rate Volunteers</a>
+    <p class="card-text">Older people caring from Dane County</p>
+    <a class="btn btn-info" href="#" role="button">Rate Volunteers</a>
+  </div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+<footer class = "secton footer-classic context-dark" style="background: #2d3246;">
+        <div class = "container-fluid pt-4">
+          <div class = "row">
+            <div class= "col-md-4">
+               <div class="pr-xl-4"><a class="brand" href="homepage/homepage.html"><img class="brand-logo-light"  src="image/SmallLogo.png"  width="180" alt=""></a>
+                <p class ="pt-2">Hello from Madison Wisconsin!</p>
+              </div>
+            </div>
+              <div class = "col-md-4">
+                  <h5>Contacts</h5>
+                  <dl class = "contact-list">
+                    <dt>Address: </dt>
+                    <dd>1210 W Dayton St, Madison, WI 53706</dd>
+                  </dl>
+                  <dl class="contact-list">
+                    <dt>email:</dt>
+                    <dd><a href="mailto:#">WEarn@gmail.com</a></dd>
+                  </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                    <h5>Links</h5>
+                    <ul class="nav-list">
+                      <li><a href="#">United Way </a></li>
+                      <li><a href="#">Agencies</a></li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="#">Contacts</a></li>
+                    </ul>
+                  </div>
+          </div>
+        </div>
+      </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

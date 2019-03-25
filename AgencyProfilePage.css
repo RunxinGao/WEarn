@@ -27,6 +27,8 @@ margin-left:
 
 .jumbotron{
   background: linear-gradient(.25turn, #eab027, 60%, #f9ef27);
+  /*background: linear-gradient(.25turn, #f3781e, 60%, #f9ef27);*/
+  background: linear-gradient(.25turn, #f4a638, 60%, #f4ce38);
 }
 
 .card-img-top{

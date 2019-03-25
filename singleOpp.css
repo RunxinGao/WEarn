@@ -1,21 +1,17 @@
 
 body{
-    background-color: #FCFAF2;
+    background-color: white;
 }
 
 .card{
+   margin-top: 5%;
    margin-left: 14%;
    margin-right: 14%;
    box-shadow: 5px 10px #888888;
 }
 
 .jum_style{
-
-background: -webkit-linear-gradient(right,#00AA90, #86C166); 
-background: -o-linear-gradient(right,#00AA90, #86C166); 
-background: -moz-linear-gradient(right,#00AA90, #86C166); 
-background: linear-gradient(right,#00AA90, #86C166); 
-
+background:linear-gradient(to right, rgb(0,127,255), rgb(115, 199, 255));
 }
 
 .myProcessBar{
@@ -62,22 +58,11 @@ height: 50px;
   font-size: 30px;
 }
 
-.floatBar{
-  position: fixed;
-  text-align:center;
-  width:100px;
-  height:50px;
-  bottom:40px;
-
-}
 
 .btn-outline-warning{
- height: 50px;
- width: 400px;
- background-color: orange; 
- font-size: 30px; 
- margin-left: 980%;
-
+ background-color: orange;
+ color: black;
+ width: 300px;
 }
 
 

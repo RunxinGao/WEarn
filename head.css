@@ -23,13 +23,13 @@ body{
 
 .wearn-header .navbar-nav 
 .nav-item .nav-link {
-    color: #007db8;
+    color: #00b4e4;
 	display: inline-block;
 	margin-left: 60px;
     text-decoration: none;
    
     font-weight: 600;
-    font-size: 22px;
+    font-size: 25px;
     position: relative;
 
 }
@@ -47,7 +47,7 @@ body{
 }
 
 .fresh-content{
-    background: linear-gradient(to right,rgb(247, 141, 2),rgb(247, 206, 1) )
+    background: linear-gradient(to right,rgb(243, 120, 30),rgb(247, 206, 1) )
 }
 
 .fresh-content a{

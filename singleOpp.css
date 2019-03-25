@@ -52,11 +52,13 @@ height: 50px;
   border-radius:50px;
   text-align:center;
   box-shadow: 2px 2px 3px #999;
+  z-index: 99999;
 }
 
 .float_chat{
   margin-top:17px;
   font-size: 30px;
+
 }
 
 
@@ -68,19 +70,9 @@ height: 50px;
 
 
 /* Style the navbar */
-#navbar {
+.floatingNav {
   overflow: hidden;
   background-color: #333;
-}
-
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
 }
 
 /* Page content */
@@ -91,12 +83,12 @@ height: 50px;
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
-}
 
+
+}
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 160px;
 }
-

@@ -34,12 +34,6 @@ body{
 
 }
 
-.nav-link :hover {
-    color: yellow;
-}
-
-
-
 
 .big-banner{
     background-image: url('image/Campaignpicold.jpg');

@@ -1,6 +1,6 @@
 
 body{
-    background-color: #FCFAF2;
+    background-color: white;
 }
 
 .card{
@@ -8,14 +8,11 @@ body{
    margin-right: 14%;
    box-shadow: 5px 10px #888888;
 }
-
+.card1{
+    margin-top: 2%;
+}
 .jum_style{
-
-background: -webkit-linear-gradient(right,#00AA90, #86C166); 
-background: -o-linear-gradient(right,#00AA90, #86C166); 
-background: -moz-linear-gradient(right,#00AA90, #86C166); 
-background: linear-gradient(right,#00AA90, #86C166); 
-
+background:linear-gradient(to right, rgb(0,127,255), rgb(115, 199, 255));
 }
 
 .myProcessBar{
@@ -55,29 +52,43 @@ height: 50px;
   border-radius:50px;
   text-align:center;
   box-shadow: 2px 2px 3px #999;
+  z-index: 99999;
 }
 
 .float_chat{
   margin-top:17px;
   font-size: 30px;
-}
-
-.floatBar{
-  position: fixed;
-  text-align:center;
-  width:100px;
-  height:50px;
-  bottom:40px;
 
 }
+
 
 .btn-outline-warning{
- height: 50px;
- width: 400px;
- background-color: orange; 
- font-size: 30px; 
- margin-left: 980%;
-
+ background-color: orange;
+ color: black;
+ width: 300px;
 }
 
 
+/* Style the navbar */
+.floatingNav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 160px;
+}

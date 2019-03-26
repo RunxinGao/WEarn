@@ -1,13 +1,13 @@
 .rating_header {
     display: flex;
     background:linear-gradient(to right, rgb(0,127,255), rgb(115, 199, 255));
-    height: 100px;
+    height: 160px;
     color: white;
 }
 
 .eventName {
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 40px;
+    font-size: 36px;
     margin-left: 15%
 }
 

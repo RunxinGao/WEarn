@@ -153,3 +153,22 @@ form {
          padding-bottom: 3px;
          color:white;
     }
+
+    .signUpText{
+        color:#e43d24;
+        font-weight: 600;
+    }
+
+    .btn-secondary{
+        background-color:#eff0f1;
+        color:#0e1630;
+        border-color:#0e1630;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .btn-secondary:hover{
+        color:#fff;
+        background:#2d3246;
+
+    }

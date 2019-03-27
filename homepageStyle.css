@@ -1,0 +1,208 @@
+
+    body{
+        background-color: #eff0f1;
+    }
+
+
+.wearn-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    margin: 0 !important;
+    padding: 18px 0;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.wearn-header.scrollable{
+    position: relative;
+    top: auto;
+}
+
+.wearn-header .navbar-nav 
+.nav-item .nav-link {
+    color: #00b4e4;
+	display: inline-block;
+	margin-left: 60px;
+    text-decoration: none;
+   
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+
+}
+
+.carousel-item{
+    opacity: 1;
+    height: 600px;
+}
+
+.carousel-caption{
+    color: black;
+    left:5%;
+    text-align: start;
+}
+
+.discover-provider .section-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.discover-provider .section-title .line {
+    width: 300px;
+    height: 0;
+    border: 2px solid #C4C4C4;
+    margin: 5px;
+    display:inline-block;
+  }
+
+
+.discover-provider .section-title .text{
+    position: relative;
+    top: -1px;
+    z-index: 5;
+    padding:0 20px;
+    background:#eff0f1;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.fresh-content{
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+
+.fresh-content .container .column{
+    width: 25%;
+    padding: 10px 30px;
+}
+
+.fresh-content .container s.row {margin: 0 -5px;} 
+
+.fresh-content a{
+    text-decoration: none;
+    color:black;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0;
+}
+
+.fresh-content .color-bar{
+    height: 1rem;
+    width: 300px;
+    background-color: #00b4e6;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.fresh-content .media{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    text-align: center;
+    background:#fff;
+    min-height: 7.5rem;
+    padding: 1.5rem 0.75rem;
+    width: 300px;
+    height: 200px;
+
+}
+
+.fresh-content .media i{
+    color:rgb(243, 120, 30);
+}
+.fresh-content .media h5{
+    font-weight: 600;
+    color: #00b4e6;
+}
+
+.fresh-content .media p{
+    color: #7d97ad;
+}
+
+.newAgencies-title{
+    text-align: left;
+    color: #2e3d49;
+    padding-left: 370px;
+    padding-top: 80px;
+    padding-bottom: 0.4rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.newAgencies .col-md-4{
+    display: inline-block;
+    margin-left:-10px;
+    text-decoration: none;
+  }
+
+.newAgencies.col-md-4 img{
+    width:100%;
+    height:auto;
+  }
+
+ /* .carousel-item {
+    height: 500px;
+    width: 300px;
+} */
+
+
+  body .carousel-control-prev-icon,
+  body .carousel-indicators li,
+  body .carousel-control-next-icon{
+    background-color:#000;
+  }
+  
+  span.carousel-control-prev-icon {
+   position: relative;
+   bottom: 40px;
+   right: 40px;
+  }
+  
+  span.carousel-control-next-icon {
+   position: relative;
+   bottom: 40px;
+  }
+
+  
+.jumbotron{
+    background: linear-gradient(to right,rgb(0, 180, 230),rgb(212, 215, 216) )
+}
+
+.jumbotron .btn:after {
+   color:#fff;
+
+}
+/*-------------footer-----------*/ 
+.footer-classic{
+    position: relative;
+    height: 200px;
+    clear: both;
+
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.nav-list li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

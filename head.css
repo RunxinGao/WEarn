@@ -35,7 +35,7 @@ body{
 }
 
 
-.big-banner{
+/* .big-banner{
     background-image: url('image/Campaignpicold.jpg');
     background-size: cover;
 }
@@ -48,7 +48,7 @@ body{
     color:white;
     font-weight: bold;
     text-decoration: none;
-}
+} */
 
 button,
 input{

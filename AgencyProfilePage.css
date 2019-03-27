@@ -21,12 +21,79 @@ margin-left:
 
 }
 
+
+
+.ratingStars-outer {
+
+position: relative;
+
+display: inline-block;
+
+}
+
+
+
+.ratingStars-inner {
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+white-space: 
+nowrap;
+
+overflow: hidden;
+
+width: 0;
+
+}
+
+
+
+.ratingStars-outer::before {
+
+
+content: "\f005\f005\f005\f005\f005";
+font-family: 
+"font Awesome 5 Free";
+
+font-weight: 
+900;
+
+color: #ccc;
+
+
+
+}
+
+
+
+.ratingStars-inner::before {
+
+
+content: "\f005\f005\f005\f005\f005";
+font-family: 
+"font Awesome 5 Free";
+
+font-weight: 
+900;
+
+color: #f8ce0b;
+
+
+
+}
+
 .progress{
   text-decoration-color: black;
 }
 
 .jumbotron{
   background: linear-gradient(.25turn, #eab027, 60%, #f9ef27);
+  /*background: linear-gradient(.25turn, #f3781e, 60%, #f9ef27);*/
+  background: linear-gradient(.25turn, #f4a638, 60%, #f4ce38);
 }
 
 .card-img-top{
